@@ -8,7 +8,12 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://socialmedia-sepia-tau.vercel.app/",
+    credentials: true,
+  }),
+);
 
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/posts", require("./routes/postRoutes"));
