@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://social-media-app-y4fk.onrender.com",
+  baseURL: "https://social-media-app-y4fk.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
