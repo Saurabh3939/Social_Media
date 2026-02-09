@@ -1,0 +1,130 @@
+.home-container {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.create-post-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.create-post-card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+    font-size: 1.2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    font-family: inherit;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.post-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.post-btn:hover {
+    background-color: #0056b3;
+}
+
+.post-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    border: 1px solid #efefef;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.post-author {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.post-date {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.post-text {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.like-btn,
+.comment-btn {
+    background: none;
+    border: none;
+    color: #65676b;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.95rem;
+}
+
+.like-btn:hover {
+    color: #e0245e;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    /* transition: all 0.3s ease; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.delete-btn:hover {
+    background-color: #ffebee;
+    color: #d32f2f;
+    /* transform: rotate(10deg) scale(1.1); */
+}
